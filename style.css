@@ -1,0 +1,139 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.row{
+    margin-left:15px;
+    margin-right:-15px;
+}
+
+@media(min-width:992px){
+    
+    .col-lg-4{
+        margin: 10px;
+        box-sizing: border-box;
+        padding: 12px;
+        width: 27%;
+        float: left;
+        border: 2px solid black;
+        background-color: grey;
+    }
+    .one{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        text-align: right;
+        /* border: 2px solid black;
+        position: fixed;
+        left:379.2px; 
+        bottom:617px; */
+    }
+    .two{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        /* text-align: right;
+        border: 2px solid black;
+        position: fixed;
+        left:520px; */
+    }
+    .three{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        /* text-align: right;
+        border: 2px solid black;
+        position: fixed;
+        left:520px; */
+    }
+}
+    
+@media(min-width:768px) and (max-width:991px){
+    .col-md-6{
+        box-sizing: border-box;
+        padding: 12px;
+        margin: 1%;
+        width: 44%;
+        float: left;
+        border: 1px solid black;
+        background-color: grey;
+    }
+    .col-md-12{
+        width: 90%;
+        float: left;
+        box-sizing: border-box;
+        padding: 12px;
+        margin: 1%;
+        float: left;
+        border: 1px solid black;
+        background-color: grey;
+    }
+
+    .one{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        position: relative;
+        /* left:100%; */
+        /* right: -87%; */
+        font-weight:800;
+        border: 2px solid black;
+    }
+    .two{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        position: relative;
+        /* left:100%; */
+        /* right: -86%; */
+        font-weight:800;
+        border: 2px solid black;
+    }
+    .three{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        border: 2px solid black;
+        /* text-align: right;
+        border: 2px solid black;
+        position: fixed;
+        left:520px; */
+    }
+}
+
+@media(max-width:767px){   
+    .col-sm-12{
+        box-sizing: border-box;
+        padding: 12px;
+        margin: 1%;
+        width: 94%;
+        float: left;
+        border: 1px solid black;
+        background-color: grey;
+    }
+    .one{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        position: relative;
+        /* left:100%; */
+        /* right: -87%; */
+        font-weight:800;
+        border: 2px solid black;
+    }
+    .two{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        position: relative;
+        /* left:100%; */
+        /* right: -86%; */
+        font-weight:800;
+        border: 2px solid black;
+    }
+    .three{
+        background-color: rgb(195, 145, 166);
+        color: aliceblue;
+        border: 2px solid black;
+        /* text-align: right;
+        border: 2px solid black;
+        position: fixed;
+        left:520px; */
+    }
+}
