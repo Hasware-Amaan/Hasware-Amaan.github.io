@@ -1,11 +1,11 @@
 
 var byeSpeaker = {}
 
-var speakWord = "Good Bye";
+byeSpeaker.speakWord = "Good Bye";
 
 
-byeSpeaker.speak = function(name) {
-  console.log(speakWord + " " + name);
+byeSpeaker.speak = function speak (name) {
+  console.log(this.speakWord + " " + name);
 }
 
 
