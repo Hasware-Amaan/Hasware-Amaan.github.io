@@ -1,10 +1,7 @@
-
 var helloSpeaker = {}
 
-var speakWord1 = "Hello"
+helloSpeaker.speakWord = "Hello"
 
-helloSpeaker.speak =function (name) {
-  console.log(speakWord1 + " " + name);
+helloSpeaker.speak = function speak (name) {
+  console.log(this.speakWord + " " + name);
 }
-
-
